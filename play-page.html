@@ -1,0 +1,143 @@
+The HTML code you provided is mostly correct, but there are a few minor issues that can be improved. Here's the corrected version:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="owner" content="omiearabali">
+    <meta name="description" content="This is our movie website">
+    <title>Jumanji: Welcome to the Jungle</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="img/fav-icon.png" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <div class="nav container">
+            <a href="index.html" class="logo">
+                Movie<span>Flix</span>
+            </a>
+            <div class="search-box">
+                <input type="search" id="search-input" placeholder="Search movie">
+                <i class="bx bx-search"></i>
+            </div>
+            <a href="#" class="user">
+                <img src="img/profile pic.jpg" alt="User Profile" class="user-img">
+            </a>
+            <div class="navbar">
+                <a href="index.html" class="nav-link nav-active">
+                    <i class="bx bx-home"></i>
+                    <span class="nav-link-title">Home</span>
+                </a>
+                <a href="#trending" class="nav-link">
+                    <i class="bx bxs-hot"></i>
+                    <span class="nav-link-title">Trending</span>
+                </a>
+                <a href="#explore" class="nav-link">
+                    <i class="bx bx-compass"></i>
+                    <span class="nav-link-title">Explore</span>
+                </a>
+                <a href="#movies" class="nav-link">
+                    <i class="bx bx-tv"></i>
+                    <span class="nav-link-title">Movies</span>
+                </a>
+                <a href="#favourite" class="nav-link">
+                    <i class="bx bx-heart"></i>
+                    <span class="nav-link-title">Favourite</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <div class="play-container container">
+        <img src="play-page/play-background.jpg" alt="Play Background" class="play-img">
+        <div class="play-text">
+            <h2>Jumanji: Welcome to the Jungle</h2>
+            <div class="rating">
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star-half"></i>
+            </div>
+            <div class="tags">
+                <span>Action</span>
+                <span>Adventure</span>
+                <span>4K</span>
+            </div>
+            <a href="#" class="watch-btn">
+                <i class="bx bx-right-arrow"></i>
+                <span>Watch the trailer</span>
+            </a>
+        </div>
+
+        <i class="bx bx-right-arrow play-movie"></i>
+        <div class="video-container">
+            <div class="video-box">
+                <video src="play-page/Jumanji.mp4" id="myvideo" controls></video>
+                <i class='bx bx-x close-video'></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="about-movie container">
+        <h2>Jumanji: Welcome to the Jungle</h2>
+        <p>In a brand-new Jumanji adventure, four high-school kids discover an old video-game console and are drawn into the game's jungle setting, literally becoming the adult avatars they chose. What they discover is that you don't just play Jumanji--you must survive it. To beat the game and return to the real world, they must go on the most dangerous adventure of their lives, discover what Alex Vreeke left 20 years ago, and change the way they think about themselves --or they'll be stuck in the game forever, to be played by others without break</p>
+
+        <h2 class="cast-heading">Movie Cast</h2>
+        <div class="cast">
+            <div class="cast-box">
+                <img src="play-page/cast1.jpg" alt="" class="cast-img">
+                <span class="cast-title">Dwayne Johnson</span>
+            </div>
+            
+            <div class="cast-box">
+                <img src="play-page/cast2.jpg" alt="" class="cast-img">
+                <span class="cast-title">Karen Gillan</span>
+            </div>
+
+            <div class="cast-box">
+                <img src="play-page/cast3.jpg" alt="" class="cast-img">
+                <span class="cast-title">Kevin Hart</span>
+            </div>
+
+            <div class="cast-box">
+                <img src="play-page/cast4.jpg" alt="" class="cast-img">
+                <span class="cast-title">Jack Black</span>
+            </div>
+
+            <div class="cast-box">
+                <img src="play-page/cast5.jpg" alt="" class="cast-img">
+                <span class="cast-title">Nick Jonas</span>
+            </div>
+        
+            <div class="cast-box">
+                <img src="play-page/cast6.jpg" alt="" class="cast-img">
+                <span class="cast-title">Madison Iseman</span>
+            </div>
+        </div>
+    </div>
+
+<div class="download">
+    <h2 class="download-title">Download Movie</h2>
+    <div class="download-links">
+        <a href="play-page/Jumanji.mp4" download>480</a>        
+        <a href="play-page/Jumanji.mp4" download>720</a>
+        <a href="play-page/Jumanji.mp4" download>1080</a>
+        <a href="play-page/Jumanji.mp4" download>4K</a>
+    </div>
+</div>
+
+
+
+    <div class="copyright">
+        <p>&#169; Developed by Somshekhar with creativity</p>
+    </div>
+
+    <script src="main/swiper-bundle.min.js"></script>
+    <script src="main/main.js"></script>
+    <script src="main/video-controls.js"></script>
+</body>
+</html>
+```
