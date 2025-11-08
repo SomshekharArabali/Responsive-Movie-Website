@@ -108,5 +108,6 @@ Or use a live server extension if you’re fancy.
 *   Dark/light theme toggle
 
 ## 🖼️ Page Previews
-![Uploading image.png…]()
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d4b52d25-e9cb-49ff-b678-5b3d4681e707" />
+
 
